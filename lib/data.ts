@@ -257,6 +257,7 @@ export const links = [
     },
     {
       name: 'Runtz',
+      slug: 'Runtz',
       type: 'cannabis',
       image: '/Runtz.webp',
       strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',

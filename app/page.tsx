@@ -6,6 +6,7 @@ import { cannabis, hemp, merch, products } from "@/lib/data";
 import Link from "next/link";
 
 import slugify from 'slugify'
+import CannabisCarousel from "./components/CannabisCarousel";
 
 export default function Home() {
   return (
@@ -21,10 +22,13 @@ export default function Home() {
       
       <section>
         <div className="mt-6 mb-12 border-b-[1px] border-gray-300">
-          <h3 className="uppercase m-auto text-green-500 font-semibold w-fit rounded-lg text-2xl px-4 py-2">Cannabis</h3>
+          <h3 className="uppercase m-auto text-green-500 font-semibold w-fit 
+          rounded-lg text-2xl px-4 py-2">Cannabis</h3>
         </div>
+
+        <CannabisCarousel />
         
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        {/* <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {cannabis.map((item, i) => (
             <Link 
               href={`/cannabis/${slugify(item.name)}`}
@@ -41,7 +45,7 @@ export default function Home() {
                 text-sm">{item.name}</p>
             </Link>
           ))}
-        </div>
+        </div> */}
       </section>
 
       <section className="mt-6">
@@ -55,7 +59,7 @@ export default function Home() {
           {hemp.map((item, i) => (
             <Link 
               href={`/hemp/${slugify(item.name)}`}
-              className="flex flex-col items-center group cursor-pointer ">
+              className="flex flex-col gap-4 items-center group cursor-pointer ">
               <Image 
                 alt={item.name}
                 src={`/images${item.image}`}
@@ -65,7 +69,7 @@ export default function Home() {
               />
 
               <p className="uppercase text-gray-900 font-semibold
-                text-sm">{item.name}</p>
+                text-xl">{item.name}</p>
             </Link>
           ))}
         </div>
@@ -92,7 +96,7 @@ export default function Home() {
               />
 
               <p className="uppercase text-gray-900 font-semibold
-                text-sm">{item.name}</p>
+                text-xl">{item.name}</p>
             </Link>
           ))}
         </div>
