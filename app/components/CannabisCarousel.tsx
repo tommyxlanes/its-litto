@@ -25,7 +25,7 @@ const CannabisCarousel = () => {
   return (
     <>
       <Swiper
-        slidesPerView={screenSize.width < 430 ? 2 : 4}
+        slidesPerView={screenSize.width < 500 ? 2 : 4}
         spaceBetween={30}
         freeMode={true}
         pagination={{
