@@ -6,7 +6,12 @@ import { cannabis, hemp, merch, products } from "@/lib/data";
 import Link from "next/link";
 
 import slugify from 'slugify'
-import CannabisCarousel from "./components/CannabisCarousel";
+// import CannabisCarousel from "./components/CannabisCarousel";
+import dynamic from "next/dynamic";
+
+const DynamicCarousel = dynamic(() => import('./components/CannabisCarousel'), {
+  ssr: false
+})
 
 export default function Home() {
   return (
@@ -26,7 +31,7 @@ export default function Home() {
           rounded-lg text-2xl px-4 py-2">Cannabis</h3>
         </div>
 
-        <CannabisCarousel />
+        <DynamicCarousel />
         
         {/* <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {cannabis.map((item, i) => (

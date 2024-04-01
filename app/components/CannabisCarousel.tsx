@@ -17,7 +17,6 @@ import Image from 'next/image';
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import Link from 'next/link';
 
-
 const CannabisCarousel = () => {
     const screenSize = useScreenSize()
 
