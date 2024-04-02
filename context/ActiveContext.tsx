@@ -1,9 +1,9 @@
 'use client'
 
-import { links } from "@/lib/data";
+import { cannabisType } from "@/lib/data";
 import { createContext, useContext, useState } from "react";
 
-type sectionName = (typeof links)[number]['name']
+type sectionName = (typeof cannabisType)[number]['type']
 
 type Props = {
     children: React.ReactNode
@@ -17,7 +17,7 @@ type activeSelectionType = {
 const ActiveContext = createContext<activeSelectionType | null>(null)
 
 export const ActiveContextProvider = ({children}: Props) => {
-    const [activeSelection, setActiveSelection] = useState<sectionName>('cannabis')
+    const [activeSelection, setActiveSelection] = useState<sectionName>('original')
 
     return (
         <ActiveContext.Provider value={{

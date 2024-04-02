@@ -25,10 +25,12 @@ type Props= {
         mood?: string,
         flavors?: string,
         description?: string
-    }[]
+    }[],
+    catalog?: string
 }
 
-const CarouselItem = ({ list }: Props) => {
+const CarouselItem = ({ list, catalog }: Props) => {
+  const itemFit = catalog === 'merch' ? 'contain' : 'cover'
  
   return (
     <>
@@ -58,20 +60,24 @@ const CarouselItem = ({ list }: Props) => {
       >
         {
             list.map((item, i) => {
-                const type = item.type === 'hemp' ? 'hemp' : 'merch'
+                // const type = item.type === 'hemp' ? 'hemp' : 'merch'
 
                 return (
                     <SwiperSlide key={i}>
-                        <Link href={`/${type}/${item.slug}`}>
+                        <Link href={`/${catalog}/${item.slug}`}>
                         <div className='flex flex-col justify-center items-center gap-4'>
-                            <Image 
-                                src={`/images${item.image}`}
-                                height={400}
-                                width={200}
-                                alt={item.name}
-                                style={{ width: 'auto', height: 'auto' }}
-                            />
-
+                            <div className='relative w-36 h-60 '>
+                                <Image 
+                                  src={`/images${item.image}`}
+                                  sizes='100vw'
+                                  fill
+                                  style={{
+                                    objectFit: `${itemFit}`
+                                  }}
+                                  alt={item.name}
+                                  className='hover:scale-105 transition duration-200'
+                              />
+                            </div>
                             <h3 className='text-2xl font-semibold'>
                                 {item.name}
                             </h3>

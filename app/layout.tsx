@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Menu from "./components/Menu";
 import Footer from "./components/Footer";
 import Modal from "./components/Modal";
+import { ActiveContextProvider } from "@/context/ActiveContext";
 
 const poppins = Poppins({
    subsets: ["latin"], 
@@ -25,8 +26,10 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${poppins.className}scroll-smooth`}>
         <Header />
-        <Modal />
-        {children}
+        
+        <ActiveContextProvider>
+          {children}
+        </ActiveContextProvider>
 
         <Footer />
       </body>

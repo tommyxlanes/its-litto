@@ -1,7 +1,7 @@
 'use client'
 
 import Selector from '@/app/components/Selector'
-import { products } from '@/lib/data'
+import { cannabisType, products } from '@/lib/data'
 import Image from 'next/image'
 import { usePathname } from 'next/navigation'
 
@@ -16,7 +16,7 @@ type Props = {
 }
 
 const page = ({ params }: Props) => {
-  const item = products.find(item => {
+  const item = cannabisType.find(item => {
     if(item.slug === params.id) return item
   })
 

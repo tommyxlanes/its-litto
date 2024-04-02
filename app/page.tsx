@@ -56,7 +56,7 @@ export default function Home() {
           </h3>
         </div>
 
-        <CarouselItem list={hemp}/>
+        <CarouselItem list={hemp} catalog="hemp"/>
         
         {/* <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {hemp.map((item, i) => (
@@ -85,7 +85,7 @@ export default function Home() {
           </h3>
         </div>
 
-        <CarouselItem list={merch} />
+        <CarouselItem list={merch} catalog="merch" />
         
         {/* <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {merch.map((item, i) => (

@@ -21,6 +21,162 @@ export const links = [
     }
   ] as const;
 
+export const cannabisType = [
+  {
+    type: 'original',
+    name: 'Blue Dream',
+      slug: 'blue-dream',
+      image: '/blue-dreams.webp',
+      strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
+  },
+  {
+    type: 'original',
+    name: 'Blueberry Kush',
+      slug: 'blueberry-kuch',
+      image: '/blueberry-kush.webp',
+      strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
+  },
+  {
+    type: 'original',
+    name: 'Grape God',
+      slug: 'grape-god',
+      image: '/grape-god.webp',
+      strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
+  },
+  {
+    type: 'original',
+    name: 'King Louie XIII',
+      slug: 'king-louie-xiii',
+      image: '/king-louie-xiii.webp',
+      strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
+  },
+  {
+    type: 'original',
+    name: 'Maui Wowie',
+      slug: 'maui-wowie',
+      image: '/maui-wowie.webp',
+      strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
+  },
+  {
+    type: 'original',
+    name: 'Mimosa',
+      slug: 'mimosa',
+      image: '/mimosa.webp',
+      strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
+  },
+  {
+    type: 'exotic',
+    name: 'Apple Fritter',
+      slug: 'apple-fritter',
+      image: '/apple-fritter.webp',
+      strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
+  },
+  {
+    type: 'exotic',
+    name: 'Betty White',
+      slug: 'betty-white',
+      image: '/betty-white.webp',
+      strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
+  },
+  {
+    type: 'exotic',
+    name: 'Gusher',
+      slug: 'gusher',
+      image: '/gushers.webp',
+      strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
+  },
+  {
+    type: 'exotic',
+    name: 'Runtz',
+      slug: 'runtz',
+      image: '/runtz.webp',
+      strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
+  },
+  {
+    type: 'live resin',
+    name: 'Legend OG',
+      slug: 'legend-og',
+      image: '/legend-og.webp',
+      strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
+  },
+  {
+    type: 'live resin',
+    name: 'Papaya',
+      slug: 'papaya',
+      image: '/papaya.webp',
+      strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
+  },
+  {
+    type: 'live resin',
+    name: 'Shmac 1',
+      slug: 'shmac-1',
+      image: '/shmac-1.webp',
+      strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
+  },
+  {
+    type: 'live resin',
+    name: 'White Runtz',
+      slug: 'white-runtz',
+      image: '/white-runtz.webp',
+      strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+      flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
+  },
+  {
+          name: 'Super Lemon Haze',
+          slug: 'Super-Lemon-Haze',
+          type: 'cannabis',
+          image: '/SuperLemonHaze.webp',
+          strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+          mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+          flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
+        },
+        {
+          name: 'Skywalker OG',
+          slug: 'Skywalker-OG',
+          type: 'cannabis',
+          image: '/SkywalkerOG.webp',
+          strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+          mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+          flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
+        },
+        {
+          name: 'Watermelon OG',
+          slug: 'Watermelon-OG',
+          type: 'hemp',
+          image: '/WatermelonOG.webp',
+          strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+          mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
+          flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
+        }
+]
+
   export const footerInfo = [
     {
         link: 'FAQS',
