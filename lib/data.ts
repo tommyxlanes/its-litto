@@ -24,7 +24,7 @@ export const links = [
   export const footerInfo = [
     {
         link: 'FAQS',
-        url: 'faqs'
+        url: 'faq'
     }, 
     {
         link: 'MEDIA KIT',
