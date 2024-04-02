@@ -6,12 +6,8 @@ import { cannabis, hemp, merch, products } from "@/lib/data";
 import Link from "next/link";
 
 import slugify from 'slugify'
-// import CannabisCarousel from "./components/CannabisCarousel";
-import dynamic from "next/dynamic";
-
-const DynamicCarousel = dynamic(() => import('./components/CannabisCarousel'), {
-  ssr: false
-})
+import CannabisCarousel from "./components/CannabisCarousel";
+import CarouselItem from "./components/CarouselTemp";
 
 export default function Home() {
   return (
@@ -31,7 +27,7 @@ export default function Home() {
           rounded-lg text-2xl px-4 py-2">Cannabis</h3>
         </div>
 
-        <DynamicCarousel />
+        <CannabisCarousel />
         
         {/* <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {cannabis.map((item, i) => (
@@ -59,8 +55,10 @@ export default function Home() {
             hemp
           </h3>
         </div>
+
+        <CarouselItem list={hemp}/>
         
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        {/* <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {hemp.map((item, i) => (
             <Link 
               href={`/hemp/${slugify(item.name)}`}
@@ -77,7 +75,7 @@ export default function Home() {
                 text-xl">{item.name}</p>
             </Link>
           ))}
-        </div>
+        </div> */}
       </section>
 
       <section  className="mt-6 mb-12">
@@ -86,8 +84,10 @@ export default function Home() {
             Merch
           </h3>
         </div>
+
+        <CarouselItem list={merch} />
         
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
+        {/* <div className="grid grid-cols-2 lg:grid-cols-4 gap-4">
           {merch.map((item, i) => (
             <Link 
               href={`/merch/${slugify(item.name)}`}
@@ -104,7 +104,7 @@ export default function Home() {
                 text-xl">{item.name}</p>
             </Link>
           ))}
-        </div>
+        </div> */}
       </section>
     </main>
   );

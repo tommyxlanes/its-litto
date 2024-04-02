@@ -264,7 +264,7 @@ export const links = [
       mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
       flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
     }
-  ] as const 
+  ]
 
   export const hemp = [
     {
@@ -312,7 +312,7 @@ export const links = [
       mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
       flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
     }
-  ] as const 
+  ] 
 
   export const merch = [
     {
@@ -357,4 +357,4 @@ export const links = [
       image: '/littozip.webp',
       description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
     }
-  ] as const 
+  ] 

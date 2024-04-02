@@ -15,7 +15,20 @@ import Image from 'next/image';
 import { FaArrowLeftLong, FaArrowRightLong } from "react-icons/fa6";
 import Link from 'next/link';
 
-const CannabisCarousel = () => {
+type Props= {
+    list: {
+        name: string,
+        slug: string,
+        type: string,
+        image: string,
+        strain?: string,
+        mood?: string,
+        flavors?: string,
+        description?: string
+    }[]
+}
+
+const CarouselItem = ({ list }: Props) => {
  
   return (
     <>
@@ -44,10 +57,12 @@ const CannabisCarousel = () => {
         modules={[FreeMode, Pagination, Navigation]}
       >
         {
-            cannabis.map((item, i) => {
+            list.map((item, i) => {
+                const type = item.type === 'hemp' ? 'hemp' : 'merch'
+
                 return (
                     <SwiperSlide>
-                        <Link href={`/cannabis/${item.slug}`}>
+                        <Link href={`/${type}/${item.slug}`}>
                         <div className='flex flex-col justify-center items-center gap-4'>
                             <Image 
                                 src={`/images${item.image}`}
@@ -83,4 +98,4 @@ const CannabisCarousel = () => {
   )
 }
 
-export default CannabisCarousel
+export default CarouselItem
