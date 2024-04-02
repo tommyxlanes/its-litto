@@ -17,7 +17,7 @@ const Modal = () => {
       {isOpen && (
         <div className="relative z-50" aria-labelledby="modal-title" role="dialog" aria-modal="true">
   
-        <div className="fixed inset-0 bg-gray-900 bg-opacity-90 backdrop-blur-sm transition-opacity"></div>
+        <div className="fixed inset-0 bg-gray-900 bg-opacity-75 backdrop-blur-sm transition-opacity"></div>
   
         <div className="fixed inset-0 z-10 w-screen overflow-y-auto">
           <div className="flex min-h-full items-end justify-center 

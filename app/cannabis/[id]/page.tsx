@@ -52,7 +52,7 @@ const page = ({ params }: Props) => {
 
               <div>
                 <div className='font-semibold text-gray-800 flex gap-2 items-center'>
-                <FaEyeDropper className='text-gray-800 text-4xl' /> Mood 
+                <PiMaskHappyLight className='text-gray-800 text-4xl' /> Mood 
                 </div>
                 <p className='text-gray-500'>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit repudiandae temporibus, amet vitae esse repellendus illum deserunt distinctio obcaecati quasi labore voluptate. Facilis aliquam blanditiis, unde est nulla a officia.
@@ -61,7 +61,7 @@ const page = ({ params }: Props) => {
 
               <div>
                 <div className='font-semibold text-gray-800 flex gap-2 items-center'>
-                <PiMaskHappyLight className='text-gray-800 text-4xl' /> Flavors 
+                <FaEyeDropper className='text-gray-800 text-4xl' /> Flavors 
                 </div>
                 <p className='text-gray-500'>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate perspiciatis suscipit impedit. Amet, eligendi atque quisquam voluptate voluptas maiores nam excepturi cumque dolorem. Molestias, architecto. A eaque adipisci laborum suscipit.

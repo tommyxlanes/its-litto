@@ -16,7 +16,7 @@ const Footer = () => {
             <ul className='flex flex-col gap-2 font-light'>
                 {
                     footerInfo.map(info => (
-                        <Link href={`/${info.link}`} className='hover:text-green-600 transition
+                        <Link href={`/${info.url}`} className='hover:text-green-600 transition
                         duration-200'>
                             <li key={info.link}>{info.link}</li>
                         </Link>

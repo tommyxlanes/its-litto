@@ -54,6 +54,7 @@ const CannabisCarousel = () => {
                                 height={400}
                                 width={200}
                                 alt={item.name}
+                                style={{ width: 'auto', height: 'auto' }}
                             />
 
                             <h3 className='text-2xl font-semibold'>

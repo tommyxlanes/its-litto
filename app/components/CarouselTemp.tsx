@@ -61,7 +61,7 @@ const CarouselItem = ({ list }: Props) => {
                 const type = item.type === 'hemp' ? 'hemp' : 'merch'
 
                 return (
-                    <SwiperSlide>
+                    <SwiperSlide key={i}>
                         <Link href={`/${type}/${item.slug}`}>
                         <div className='flex flex-col justify-center items-center gap-4'>
                             <Image 
@@ -69,6 +69,7 @@ const CarouselItem = ({ list }: Props) => {
                                 height={400}
                                 width={200}
                                 alt={item.name}
+                                style={{ width: 'auto', height: 'auto' }}
                             />
 
                             <h3 className='text-2xl font-semibold'>

@@ -23,28 +23,36 @@ export const links = [
 
   export const footerInfo = [
     {
-        link: 'FAQS'
+        link: 'FAQS',
+        url: 'faqs'
     }, 
     {
-        link: 'MEDIA KIT'
+        link: 'MEDIA KIT',
+        url: 'media'
     },
     {
-        link: 'NEWS'
+        link: 'NEWS',
+        url: 'news'
     },
     {
-        link: 'PRIVACY POLICY'
+        link: 'PRIVACY POLICY',
+        url: 'policy'
     },
     {
-        link: 'RETURNS AND REFUNDS POLICY'
+        link: 'RETURNS AND REFUNDS POLICY',
+        url: 'returns-and-refunds'
     },
     {
-        link: 'SHIPPING'
+        link: 'SHIPPING',
+        url: 'shipping'
     },
     {
-        link: 'TERMS OF USE'
+        link: 'TERMS OF USE',
+        url: 'terms'
     },
     {
-        link: 'WHOLESALE'
+        link: 'WHOLESALE',
+        url: 'wholesome'
     }
   ] as const;
   
