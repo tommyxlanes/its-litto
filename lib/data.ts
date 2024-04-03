@@ -107,7 +107,7 @@ export const cannabisType = [
     type: 'exotic',
     name: 'Runtz',
       slug: 'runtz',
-      image: '/runtz.webp',
+      image: '/Runtz.webp',
       strain: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
       mood: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.',
       flavors: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, ad quis! Eveniet et quisquam culpa nihil aut facere voluptate tempore sit ullam adipisci, nam architecto quibusdam molestiae, fugit inventore atque.'
